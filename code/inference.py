@@ -16,9 +16,10 @@ def model_fn(model_dir):
 
 
 def transform_fn(model, request_body, input_content_type, output_content_type="application/json"):
+# def predict_fn(self, data, model):
     print("********* TRANS mode ****************")
-    pred = model.predict(data)
-    pred_proba = model.predict_proba(data)
-    prediction = pd.concat([pred, pred_proba], axis=1)
+#     pred = model.predict(data)
+#     pred_proba = model.predict_proba(data)
+#     prediction = pd.concat([pred, pred_proba], axis=1)
 
-    return prediction.to_json(), output_content_type
+    return "result"
