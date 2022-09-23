@@ -19,8 +19,8 @@ def _train(args):
 
     train_data = pd.read_csv(f'{args.data_dir}/train.csv', index_col=0)
     
-    label_col = 'AdoptionSpeed'
-    image_col = 'Images'
+    label_col = args.label_col
+    image_col = args.image_col
 
 
     train_data[image_col] = train_data[image_col].apply(lambda ele: path_expander(ele, base_folder=args.data_dir))
@@ -41,5 +41,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=str, default=os.environ["SM_CHANNEL_TRAINING"])
     parser.add_argument("--model-dir", type=str, default=os.environ["SM_MODEL_DIR"])
+    parser.add_argument("--label-col", type=str, default='AdoptionSpeed')
+    parser.add_argument("--image-col", type=str, default='Images')
     
     _train(parser.parse_args())
