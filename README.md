@@ -6,6 +6,8 @@ Welcome to the Text and Images: Multimodal Learning on SageMaker workshop. In th
 * Train a miltimodal autoMM model using a Amazon SageMaker training job
 * Perform batch inference using a Amazon SageMaker Processing job
 
+We will use AutoGluon for Multimodal model training and inference. [AutoGluon](https://github.com/awslabs/autogluon) automates machine learning tasks enabling you to easily achieve strong predictive performance in your applications. With just a few lines of code, you can train and deploy high-accuracy deep learning models on tabular, image, and text data. This example shows how to use AutoGluon MultiModal with Amazon SageMaker by using prebuilt AutoGluon containers.
+
 # Getting Started
 
 For this workshop you’ll get access to a temporary AWS Account already pre-configured with Amazon SageMaker Notebook Intances. Follow the steps in this section to login to your AWS Account and download the workshop material.
