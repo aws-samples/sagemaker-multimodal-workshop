@@ -56,9 +56,14 @@ Click on Accept Terms & Login
 
 ### 11. Clone the workshop content
 
-In the terminal paste the following command to clone the workshop content repo:
+In the terminal paste the following commands to clone the workshop content repo:
 
-`git clone https://github.com/aws-samples/sagemaker-multimodal-workshop.git`
+```
+ cd SageMaker
+ git clone https://github.com/aws-samples/sagemaker-multimodal-workshop.git
+```
+
+![](./img/setup12.png)
 
 ### 12. Rejoin the presenter for a live walkthrough of the workshop
 
