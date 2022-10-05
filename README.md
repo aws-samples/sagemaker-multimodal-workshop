@@ -1,6 +1,6 @@
 ## Text and Images: Multimodal Learning on SageMaker
 
-Welcome to the Text and Images: Multimodal Learning on SageMaker workshop. In this workshop we are going to cover: 
+Welcome to the Text and Images: [Multimodal Learning on SageMaker workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/47077f46-e2e4-471c-893b-b78345ae72ad/en-US). In this workshop we are going to cover: 
 
 * Download and explore the dataset that contains text, images and tabular data.
 * Train a miltimodal autoMM model using a Amazon SageMaker training job
